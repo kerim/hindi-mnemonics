@@ -9,15 +9,23 @@ Use this skill when the user asks you to create mnemonics for Hindi vocabulary w
 
 ## Core Principles
 
-1. **First syllable priority (flexible)**: The first syllable of the mnemonic word should almost perfectly match the first syllable of the target Hindi word
+1. **PHONETIC SOUND MATCHING (CRITICAL)**: English words must ACTUALLY SOUND LIKE the Hindi transliteration
+   - Work from the transliteration (romanized pronunciation), NOT the Devanagari
+   - Say the Hindi word out loud, then say your English mnemonic - do they rhyme/sound similar?
+   - First syllable match is most important, but ONLY if it actually sounds alike!
+
+2. **First syllable priority (flexible)**: The first syllable of the mnemonic word should almost perfectly match the first syllable of the target Hindi word
    - **EXCEPTION**: If a really strong match exists for the second syllable with a slightly off-key first syllable, this can be acceptable
    - **EXCEPTION**: If the phrase is a common idiom/expression whose overall meaning matches the target word, individual syllable-words don't need to carry the meaning
-2. **DIRECT imagery**: The mnemonic words themselves should directly evoke the meaning, not through round-about connections
+
+3. **DIRECT imagery**: The mnemonic words themselves should directly evoke the meaning, not through round-about connections
    - GOOD: "sun" → SOARING RAYS (rays directly relate to sun)
    - BAD: "sun" → SUE the RAJAH (suing a king has no direct connection to sun)
    - **EXCEPTION**: Idiomatic phrases where the phrase as a whole carries the meaning (see below)
-3. **Complete coverage**: Include all syllables when possible (perfect matches not required for later syllables, but don't skip them unless truly difficult)
-4. **Ideal outcome**: Capture multiple syllables with a single memorable phrase/image where the words directly describe or relate to the target meaning
+
+4. **Complete coverage**: Include all syllables when possible (perfect matches not required for later syllables, but don't skip them unless truly difficult)
+
+5. **Ideal outcome**: Capture multiple syllables with a single memorable phrase/image where the words directly describe or relate to the target meaning
 
 ## Mnemonic Structure
 
@@ -94,19 +102,128 @@ Each mnemonic should include:
 
 (Note: This is BAD because "suing a king" has no direct connection to "sun" - the sun is only added as background scenery, not inherent to the mnemonic words)
 
+---
+
+## PHONETIC MATCHING: The Critical Foundation
+
+**The #1 failure mode**: Creating mnemonics with words that DON'T ACTUALLY SOUND like the Hindi word!
+
+### The Phonetic Matching Process
+
+**MANDATORY WORKFLOW** - Follow these steps in order:
+
+1. **Look at the transliteration** (romanized spelling) - e.g., "uṛnā"
+2. **Sound it out phonetically** - e.g., "UR-naa"
+3. **Break into syllables** - e.g., "UR" + "naa"
+4. **Find English words that rhyme/sound like each syllable** - e.g., "YOUR", "EARN", "URN" all sound like "UR"
+5. **VERIFY the match** - Say the Hindi word, then say your English phrase. Do they sound similar?
+6. **Then (and only then) filter for meaning** - Which sound-matches also relate to the word's meaning?
+
+### Examples of GOOD vs BAD Sound Matches
+
+---
+
+**Example 1: उड़ना (uṛnā) - "to fly"**
+
+**PHONETIC BREAKDOWN**: UR-naa
+
+**GOOD SOUND MATCHES**:
+- ✅ YOUR-NAH (sounds like: UR-naa)
+- ✅ EARN-AH (sounds like: UR-naa)
+- ✅ URN-AH (sounds like: UR-naa)
+
+**BAD SOUND MATCHES**:
+- ❌ NAV-I-GAT-OR (sounds like: NAV-ih-gay-tor) - Doesn't rhyme with "UR-naa" AT ALL!
+- ❌ FLY-ING (sounds like: FLY-ing) - Wrong sounds entirely, even though it means "fly"
+- ❌ SOAR-ING (sounds like: SOR-ing) - Wrong initial sound (SOR vs UR)
+
+**WHY the bad ones fail**: They don't sound like "uṛnā" when you say them out loud! Even if "navigator" relates to flying, it's useless if it doesn't match the sounds "UR-naa".
+
+---
+
+**Example 2: सूरज (sūraj) - "sun"**
+
+**PHONETIC BREAKDOWN**: SOO-raj (or SŪ-raj)
+
+**GOOD SOUND MATCHES**:
+- ✅ SUE-RAGE (sounds like: SUE-raj) - "Sue" sounds like "sū"
+- ✅ SOAR-RAJAH (sounds like: SOR-rah-jah) - Close to "sūraj"
+- ✅ SO-RADGE (sounds like: SO-raj) - Matches the sounds
+
+**BAD SOUND MATCHES**:
+- ❌ SUN-RAYS (sounds like: SUN-rays) - "Sun" doesn't sound like "sū" or "soo"
+- ❌ SHINE-ROGER (sounds like: SHINE-ROJ-er) - Wrong initial sound entirely
+
+**NOTE**: Even though "SUN RAYS" relates perfectly to the meaning "sun", it fails because "SUN" doesn't sound like "SŪ". The first example in the skill file is actually problematic - "SOAR-ing RAYS" works because "SOAR" ≈ "SŪR", but "SUN RAYS" doesn't!
+
+---
+
+**Example 3: बाहर (bāhar) - "outside"**
+
+**PHONETIC BREAKDOWN**: BAA-har
+
+**GOOD SOUND MATCHES**:
+- ✅ BAA-HAR (sheep sound + HAR) - Direct phonetic match
+- ✅ BAR-HARD (sounds like: BAR-har) - Very close
+- ✅BAAR (bar/tavern) - Matches first syllable strongly
+
+**BAD SOUND MATCHES**:
+- ❌ OUT-SIDE (sounds like: OUT-side) - Means "outside" but doesn't sound like "BAA-har"!
+- ❌ EX-TER-NAL (sounds like: EKS-ter-nal) - Wrong sounds entirely
+- ❌ BE-YOND (sounds like: BEE-yond) - Wrong sounds
+
+---
+
+### Sound Matching Guidelines
+
+**CRITICAL CHECKS** before accepting a mnemonic:
+
+1. ✅ **The Rhyme Test**: Say the Hindi word out loud, then say your English phrase. Do they rhyme or sound similar?
+
+2. ✅ **The First Syllable Test**: Does your first English word start with a sound that's VERY close to the Hindi first syllable?
+   - uṛnā (UR) → YOUR ✅, NAVIGATOR ❌
+   - sūraj (SOO/SŪ) → SUE ✅, SUN ❌
+   - bāhar (BAA) → BAA ✅, OUT ❌
+
+3. ✅ **The False Friend Test**: Does your English word MEAN the right thing but SOUND wrong? If yes, reject it!
+   - "to fly" → "FLYING" means right but sounds nothing like "uṛnā" ❌
+
+**REMEMBER**: A mnemonic that means the right thing but sounds wrong is USELESS. Sound matching comes FIRST, meaning comes SECOND.
+
+---
+
 ## Instructions
 
 When the user provides Hindi vocabulary:
 
-1. Analyze the syllable structure and meaning
-2. Find English words/phrases that match the syllables AND relate to the target meaning
-3. Consider TWO approaches:
-   - **Direct match**: Words that directly describe the meaning + match the sound
-   - **Idiomatic match**: Common phrases/expressions whose overall meaning matches, even if individual words don't
+1. **FIRST: Analyze the PHONETIC sounds**
+   - Look at the transliteration (romanized spelling)
+   - Sound it out loud: what does it actually sound like?
+   - Break into syllables phonetically
+
+2. **SECOND: Find English words that SOUND like those syllables**
+   - Generate a list of English words/sounds that rhyme with each syllable
+   - Use the Phonetic Matching Process from the section above
+   - Verify each match using the Rhyme Test and First Syllable Test
+
+3. **THIRD: Filter for meaning**
+   - From your sound-matched words, which ones relate to the target meaning?
+   - Consider TWO approaches:
+     - **Direct match**: Words that directly describe the meaning + match the sound
+     - **Idiomatic match**: Common phrases/expressions whose overall meaning matches, even if individual words don't
+
 4. **CRITICAL**: The mnemonic words must INHERENTLY evoke the meaning, not require adding unrelated imagery as "scenery"
+
 5. **ALWAYS generate 5 different mnemonic options** for each word
+
 6. **FLEXIBILITY**: Include 1-2 idiomatic phrase options if they provide excellent sound matches, even with slightly off first syllables
+
 7. Present all 5 options in the format shown above
+
+**REJECTION CRITERIA** - Discard any mnemonic that:
+- Fails the Rhyme Test (doesn't sound like the Hindi word when spoken aloud)
+- Fails the First Syllable Test (first English word doesn't match Hindi first syllable sound)
+- Passes False Friend Test (means right but sounds wrong)
 
 **IMPORTANT**:
 - Always provide exactly 5 different mnemonic options for each Hindi word
@@ -114,11 +231,13 @@ When the user provides Hindi vocabulary:
 - 1-2 options can use idiomatic phrases if the phrase as a whole conveys the meaning well
 - Avoid round-about connections where the meaning is only added as background context
 
-Focus on creating mnemonics that are:
-- **UNFORGETTABLE**: This is CRITICAL - boring mnemonics won't stick! Make them funny, shocking, absurd, or surprising
-- **Sound-accurate**: Prioritize first syllable precision (with flexibility for idiomatic phrases)
-- **Meaningful**: The image should clearly connect to the word's meaning
-- **Complete**: Cover all syllables when feasible
+Focus on creating mnemonics that are (in priority order):
+1. **Sound-accurate**: This is THE MOST CRITICAL - the English words must ACTUALLY SOUND like the Hindi transliteration! If it doesn't pass the Rhyme Test, it's useless!
+2. **UNFORGETTABLE**: Boring mnemonics won't stick! Make them funny, shocking, absurd, or surprising
+3. **Meaningful**: The image should clearly connect to the word's meaning
+4. **Complete**: Cover all syllables when feasible
+
+**PRIORITY HIERARCHY**: Sound matching > Memorability > Meaning coverage > Syllable completeness
 
 ## The Memorability Requirement
 
@@ -142,14 +261,29 @@ Focus on creating mnemonics that are:
 
 ## Tips for Strong Mnemonics
 
-- **Start with the meaning**: Think of words directly related to the target meaning that also match the sound
-- **Consider idioms**: Think of common phrases/expressions related to the meaning that might match the sound
+**STEP 1 - Sound Matching (DO THIS FIRST!)**:
+- **Start with the sounds**: Look at the transliteration and say it out loud
+- **Brainstorm rhymes**: List English words that sound like each syllable
+- **Test the rhyme**: Say the Hindi word, then say your English word - do they rhyme?
+- **Verify first syllable**: The first English word MUST sound very similar to the Hindi first syllable
+
+**STEP 2 - Meaning Integration**:
+- **Filter for meaning**: From your sound-matched words, which relate to the target meaning?
+- **Consider idioms**: Think of common phrases/expressions that match both sound AND meaning
+- **Direct imagery preferred**: Words that inherently relate to the meaning (not added as scenery)
+
+**STEP 3 - Memorability Enhancement**:
 - **Amp up the drama**: Use action verbs for dynamic, energetic imagery
 - **Go extreme**: Exaggerate size, quantity, emotion, or absurdity
 - **Add surprise**: Include unexpected twists or shocking elements
-- Capitalize the sound-matching portions
-- Include sensory details (taste, touch, sight, sound, smell)
 - **Make it ridiculous**: If it makes you chuckle or go "wow, that's weird," it's working
+- Include sensory details (taste, touch, sight, sound, smell)
+
+**FORMATTING**:
+- Capitalize the sound-matching portions
+
+**FINAL TESTS**:
+- **RHYME TEST** (MANDATORY): Say Hindi word + English phrase aloud. Do they rhyme? If NO → reject!
 - **TEST 1**: If you removed the image description, would the mnemonic words alone (or phrase as a whole) suggest the meaning? If not, find different words.
 - **TEST 2**: Would you actually remember this a week from now? If not, make it more memorable!
 
@@ -164,8 +298,83 @@ Focus on creating mnemonics that are:
 **BAD**: "sun" → SUE ROGER (suing someone has nothing to do with sun; the sun is added artificially to the scene)
 
 **Strategy**:
-1. Brainstorm words/phrases related to the target meaning first
-2. Check which ones match the sound pattern (being flexible about first syllable if the phrase is idiomatic)
-3. Amp up the memorability - make it funny, shocking, or absurd
-4. Don't find sound matches first and force the meaning in afterward
-5. Don't settle for boring imagery - keep pushing until it's unforgettable
+1. **START WITH SOUNDS**: Look at the transliteration, say it aloud, break into phonetic syllables
+2. **Brainstorm rhyming English words**: List words that SOUND like each syllable (ignore meaning for now)
+3. **Filter for meaning**: Which sound-matched words relate to the target meaning?
+4. **Amp up the memorability**: Make it funny, shocking, or absurd
+5. **Verify with tests**: Run the Rhyme Test, First Syllable Test, and False Friend Test
+6. **Reject failures**: If it doesn't sound right when spoken aloud, throw it out and start over
+
+**NEVER**:
+- ❌ Find meaning-matched words that don't sound like the Hindi (e.g., "FLYING" for उड़ना)
+- ❌ Settle for boring imagery - keep pushing until it's unforgettable
+- ❌ Skip the Rhyme Test - ALWAYS say it aloud to verify!
+
+---
+
+## Handling Rejections and Iterations
+
+**CRITICAL**: When the user rejects your first set of mnemonics, DO NOT just give variations on the same words!
+
+### What to Do When Mnemonics Are Rejected:
+
+1. **ASSUME COMPLETE FAILURE**: Your previous approach didn't work - abandon those words entirely
+
+2. **START FRESH**: Go back to the phonetic breakdown and brainstorm COMPLETELY DIFFERENT words
+   - If you used "YOUR" before, try "URN", "EARN", "URBAN", etc.
+   - If you used "SOAR" before, try "SURE", "SUE", "SEWER", etc.
+   - Don't just rearrange or recombine the same words!
+
+3. **EXPLORE DIFFERENT SOUND INTERPRETATIONS**:
+   - Try alternate pronunciations (e.g., "sūraj" could be "SOO-raj" or "SUR-aj")
+   - Consider different syllable breakdowns
+   - Look for English words with similar sounds you didn't try before
+
+4. **TRY DIFFERENT SEMANTIC ANGLES**:
+   - If direct imagery didn't work, try idiomatic phrases
+   - If idiomatic phrases didn't work, try more literal/direct words
+   - Think of synonyms and related concepts for the meaning
+
+5. **EXAMPLE - Wrong Approach** (what NOT to do):
+
+   **Word**: उड़ना (uṛnā) - "to fly"
+
+   ```
+   First attempt: YOUR WINGS NAH
+   Rejected ❌
+
+   Second attempt (BAD):
+   - YOUR WINGSPAN
+   - YOUR WING-NUTS
+   - YOUR WINGED NAG
+   ❌ BAD - These all just recycle "YOUR" with slight variations!
+   ```
+
+6. **EXAMPLE - Right Approach** (what to do):
+
+   **Word**: उड़ना (uṛnā) - "to fly"
+
+   ```
+   First attempt: YOUR WINGS NAH
+   Rejected ❌
+
+   Second attempt (GOOD):
+   - URN of ASHES (cremated pilot's ashes in an urn that magically flies)
+   - EARNED WINGS (pilot who earned their wings/license)
+   - TURN UP in the air (suddenly turning up high in the sky)
+   - YEARN to SOAR (yearning to fly high)
+   ✅ GOOD - Completely different base words (URN, EARN, TURN, YEARN), all relating to flight!
+   ```
+
+### Exception: User Guidance
+
+**ONLY reuse or modify previous words if**:
+- The user explicitly says "try variations on X"
+- The user says "X was close, tweak it"
+- The user provides specific direction on what to keep/change
+
+**DEFAULT BEHAVIOR**: Treat rejection as "start over with completely new words"
+
+### Quick Reference:
+
+**User rejects mnemonics** → Abandon all previous words → Brainstorm NEW rhyming words → Generate 5 completely fresh options
