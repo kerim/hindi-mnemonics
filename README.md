@@ -13,17 +13,20 @@ This skill helps you create memorable mnemonics for Hindi vocabulary words by:
 
 ## Installation
 
-### For Claude Desktop
-
-1. Download the latest release (mnemonics.zip)
-2. In Claude Desktop, go to Settings → Skills
-3. Click "Import Skill" and select the downloaded zip file
-
 ### For Claude Code
 
-```bash
-cp -r mnemonics ~/.claude/skills/
-```
+1. Clone or download this repository
+2. Copy the `skill/` folder to your Claude Code skills directory:
+   ```bash
+   cp -r skill ~/.claude/skills/mnemonics
+   ```
+3. Restart Claude Code to load the skill
+
+### Alternative: Direct Download
+
+1. Download just the `skill/` folder from this repository
+2. Rename it to `mnemonics` and place it at `~/.claude/skills/mnemonics/`
+3. Restart Claude Code
 
 ## Usage
 
